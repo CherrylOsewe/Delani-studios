@@ -57,17 +57,18 @@
       <h3><strong>WHAT WE DO</strong></h3>
       <div class="row">
         <div class="col-sm">
-          <div>
+          <div class="design-hidden">
             <img
               src="images/services_icons/design_icon.png"
               alt="design icon"
+              class="clickabledsg"
             />
             <br />
             Design
           </div>
-          <div>
+          <div class="design-showing">
             <h4>Design</h4>
-            <p>
+            <p class="clickabledsg">
               Our design practice offers a full range of services including
               brand strategy, interaction and visual design and user experience
               testing.Throughout your project, our designers create and
@@ -77,34 +78,37 @@
           </div>
         </div>
         <div class="col-sm">
-          <div>
+          <div class="development-hidden">
             <img
               src="images/services_icons/dev_icon.png"
               alt="development icon"
+              class="clickabledvp"
             />
             <br />Development
-            <div>
+          </div>
+            <div class="development-showing">
               <h4>Development</h4>
-              <p>
+              <p class="clickabledvp">
                 All engineers are fluent in the latest enterprise, mobile and
                 web development technologies. They collaborate with your team to
                 write, and improve code on a daily basis, using proven practices
                 such as test-driven development and pair programming.
               </p>
             </div>
-          </div>
+        
         </div>
         <div class="col-sm">
-          <div>
+          <div class="product-hidden">
             <img
               src="images/services_icons/product_icon.png"
               alt="product icon"
+              class="clickableprd"
             />
             <br />Product
           </div>
-          <div>
+          <div class="product-showing">
             <h4>Product Management</h4>
-            <p>
+            <p class="clickableprd">
               Planning and development is iterative. Because we are constantly
               coding and testing, the products we build are always ready to go
               live. This iterative process allows for changes as business
@@ -115,10 +119,11 @@
       </div>
     </div>
 
-    <!--<script
+    <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
-    ></script>-->
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

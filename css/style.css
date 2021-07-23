@@ -18,3 +18,13 @@ text-align: center;
 .col-sm{
   text-align: center;
 }
+.development-showing{
+ display: none;
+} 
+.design-showing{
+ display: none;
+} 
+.product-showing{
+  display: none;
+}
+
