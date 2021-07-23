@@ -6,6 +6,15 @@
   color: white;
   text-align: center;
 }
-.about-us{
+.container .about-us{
+  text-align: center;
+}
+.services-page{
+height:488px;
+background-image: url(../images/backgrounds/s_image.jpg);
+color: white;
+text-align: center;
+}
+.col-sm{
   text-align: center;
 }
