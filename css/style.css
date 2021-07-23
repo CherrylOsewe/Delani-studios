@@ -27,4 +27,20 @@ text-align: center;
 .product-showing{
   display: none;
 }
+h4{
+  text-align: center;
+}
+.form-group{
+  background-image: url(../images/backgrounds/c_image.jpg);
+  color: white;
+  height: 683px;
 
+}
+input ,textarea{
+  background: transparent;
+  border: white solid 1px;
+  color: white;
+}
+::placeholder{
+  color: white;
+}
