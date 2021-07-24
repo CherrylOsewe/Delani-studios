@@ -28,7 +28,8 @@
 }
 h4,
 .form-group,
-.col-sm {
+.col-sm,
+footer{
   text-align: center;
 }
 .form-group {
