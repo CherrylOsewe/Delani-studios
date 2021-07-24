@@ -1,4 +1,4 @@
-.first-page{
+.first-page {
   background-image: url(../images/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6,38 +6,44 @@
   color: white;
   text-align: center;
 }
-.container .about-us{
+.container .about-us {
   text-align: center;
 }
-.services-page{
-height:488px;
-background-image: url(../images/backgrounds/s_image.jpg);
-color: white;
-text-align: center;
+.services-page {
+  height: 488px;
+  background-image: url(../images/backgrounds/s_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
 }
-.development-showing{
- display: none;
-} 
-.design-showing{
- display: none;
-} 
-.product-showing{
+.development-showing {
   display: none;
 }
-h4 ,.form-group , .col-sm {
+.design-showing {
+  display: none;
+}
+.product-showing {
+  display: none;
+}
+h4,
+.form-group,
+.col-sm {
   text-align: center;
 }
-.form-group{
+.form-group {
   background-image: url(../images/backgrounds/c_image.jpg);
   color: white;
   height: 683px;
-
+  background-repeat: no-repeat;
+  background-position: center;
 }
-input ,textarea{
+input,
+textarea {
   background: transparent;
   border: white solid 1px;
   color: white;
 }
-::placeholder{
+::placeholder {
   color: white;
 }
