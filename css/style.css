@@ -30,7 +30,6 @@
   text-align: center;
   background-size: cover;
 }
-
 .development-showing {
   display: none;
 }
@@ -62,4 +61,7 @@ textarea {
 }
 ::placeholder {
   color: white;
+}
+h3{
+  text-align: center;
 }
