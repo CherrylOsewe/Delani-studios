@@ -15,9 +15,6 @@ background-image: url(../images/backgrounds/s_image.jpg);
 color: white;
 text-align: center;
 }
-.col-sm{
-  text-align: center;
-}
 .development-showing{
  display: none;
 } 
@@ -27,7 +24,7 @@ text-align: center;
 .product-showing{
   display: none;
 }
-h4{
+h4 ,.form-group , .col-sm {
   text-align: center;
 }
 .form-group{
