@@ -20,6 +20,7 @@
   text-align: center;
   padding: 50px;
 }
+
 .services-page {
   height: 488px;
   background-image: url(../images/backgrounds/s_image.jpg);
@@ -29,6 +30,7 @@
   text-align: center;
   background-size: cover;
 }
+
 .development-showing {
   display: none;
 }
