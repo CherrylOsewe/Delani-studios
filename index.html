@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +9,6 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
   <div class="first-page">
     <div class="caption">
@@ -115,33 +113,94 @@
   <div class="portfolio">
     <h3><strong>PORTFOLIO</strong></h3>
     <div class="row">
-      <div>
-        <img src="images/portfolio/work4.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container" class="blank-blue" class="col-sm">
+        <img src="images/portfolio/work4.jpg" alt="portfolio image"/>
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>BLANK</h2>
+              <h2>BLUE</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <img src="images/portfolio/work2.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container" class="col-sm">
+        <img src="images/portfolio/work3.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>MIGHTY</h2>
+              <h2>ONTARIO</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/portfolio/work3.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container" class="col-sm">
+        <img src="images/portfolio/work2.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>YELLOW</h2>
+              <h2>COLLAGE</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/portfolio/work1.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container"  class="col-sm">
+        <img src="images/portfolio/work1.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>ANIMATION</h2>
+              <h2>WORLD</h2>
+            </strong>
+          </div>
+        </div>
       </div>
     </div>
     <br />
     <div class="row">
-      <div>
-        <img src="images/portfolio/work5.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container"  class="col-sm">
+        <img src="images/portfolio/work5.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>ELENA</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/portfolio/work6.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container"  class="col-sm">
+        <img src="images/portfolio/work6.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>FORM</h2>
+              <h2>ELEMENT</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/portfolio/work7.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container"  class="col-sm">
+        <img src="images/portfolio/work7.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>BURNED</h2>
+            </strong>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="images/portfolio/work8.jpg" alt="portfolio image" class="col-sm" />
+      <div class="container"  class="col-sm">
+        <img src="images/portfolio/work8.jpg" alt="portfolio image" />
+        <div class="middle">
+          <div class="text">
+            <strong>  
+              <h2>GIRRAFE</h2>
+              <h2>RESTAURANT</h2>
+            </strong>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -152,13 +211,15 @@
       <br><br><br>
       <h4><strong>CONTACT US</strong></h4>
       <br>
-      <form action="">
-        <input type="text" name="name" id="name" placeholder="Name..." class="col-sm-3" />
+      <form action="/subscribe" onSubmit="return checkform()" id="form" method="POST">
+        <input type="text" name="name" id="name" placeholder="Name..."  class="col-sm-3" required/>
 
-        <input type="email" name="email" id="email" placeholder="Email..." class="col-sm-3" />
+        <input type="email" name="email" id="email" placeholder="Email..." class="col-sm-3" required />
         <br />
         <br />
         <textarea name="input-text" id="input-text" cols="95" rows="12" placeholder="Your message here..."></textarea>
+        <br>
+        <button type="submit" class="btn" onclick="onSubmit()" id="cta"> submit</button>
       </form>
     </div>
   </div>
